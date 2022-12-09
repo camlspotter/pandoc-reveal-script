@@ -75,8 +75,11 @@ The images must be put at `../images` directory:
             |                                   +-- _build/ --- slide.html
             |
             +-- images/ --+-- company_logo.png
-                          |   fancy_image.jpg
-                          .   ...
+            |             |   fancy_image.jpg
+            |             .   ...
+	    |
+	    +-- reveal.js-4.1.0/ -- ...
+			  
 ```
 
 This desigin is because the same images are often used in multiple slides.
