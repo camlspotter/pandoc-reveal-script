@@ -63,6 +63,9 @@ It monitors `*.md` and `*.css` file changes:
 
 ## Images
 
+In Markdown, images are accessed under `images/` directory:
+`![](images/company_log.png)`.
+
 The images must be put at `../images` directory:
 
 ```
