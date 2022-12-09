@@ -61,6 +61,26 @@ It monitors `*.md` and `*.css` file changes:
 * Compile MarkDowns to HTMLs: `_build/XXX.html`
 * Display HTMLs on Chrome
 
+## Images
+
+The images must be put at `../images` directory:
+
+```
+- slides/ --+-- my_cool_slide_for_today/ --+-- slide.md
+            |                              |   mystyle.css
+            |                              +-- _build/ ---- slide.html
+            |
+            +-- another_slide_for_last_month/ --+-- slide.md
+            |                                   |   mystyle.css
+            |                                   +-- _build/ --- slide.html
+            |
+            +-- images/ --+-- company_logo.png
+                          |   fancy_image.jpg
+                          .   ...
+```
+
+This desigin is because the same images are often used in multiple slides.
+
 ## Print slides to PDF
 
 `$ ./command.sh print`
